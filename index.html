@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Blog</title>
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- google fonts  -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+    </style>
+  </head>
+  <body>
+    <!-- header section starts  -->
+    <header>
+      <div class="header-1">
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>food</a>
+
+        <h3 class="call">
+          <i class="fas fa-phone"></i> call now: +123-456-7890
+        </h3>
+      </div>
+
+      <div class="header-2">
+        <div id="menu" class="fas fa-hamburger"></div>
+        <nav class="navbar">
+          <ul>
+            <li><a class="active" href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#dish">dish</a></li>
+            <li><a href="#chef">chef</a></li>
+            <li><a href="#speciality">speciality</a></li>
+            <li><a href="#order">order</a></li>
+          </ul>
+        </nav>
+
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-pinterest"></a>
+          <a href="#" class="fab fa-twitter"></a>
+        </div>
+      </div>
+    </header>
+    <!-- header section ends  -->
+
+    <!-- home section starts  -->
+    <section id="home" class="home">
+      <div class="content">
+        <h1>welcome <span>food</span> lovers</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,
+          provident quibusdam tempora magni autem, illum Hic alias esse
+          consectetur, Lorem ipsum dolor sit amet.
+        </p>
+        <a href="#"><button class="btn">get started</button></a>
+      </div>
+      <div class="shape"></div>
+    </section>
+
+    <!-- home section ends  -->
+
+    <!-- about section starts  -->
+
+    <section id="about" class="about">
+      <h1 class="heading"><span>about us</span></h1>
+
+      <div class="row">
+        <div class="content">
+          <h1>lets satisfy your hunger with our tasty dishes</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            rerum veritatis excepturi esse tenetur ea amet, mollitia qui ad
+            expedita dolore quaerat laborum, consectetur natus! <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+            voluptates.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            aliquid accusantium dolor nisi ex quis animi, qui quibusdam vel
+            eius.
+          </p>
+          <a href="#"><button class="btn">learn more</button></a>
+        </div>
+
+        <div class="image">
+          <img src="./images/images/girl-chef.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends  -->
+
+    <!-- dish section starts -->
+
+    <section id="dish" class="dish">
+        <h1 class="heading"><span>popular dishes</span></h1>
+        <ul class="controls">
+            <li class="buttons button-active" data-filter="all">all</li>
+            <li class="buttons" data-filter="beef">beef</li>
+            <li class="buttons" data-filter="sandwich">sandwich</li>
+            <li class="buttons" data-filter="salad">salad</li>
+            <li class="buttons" data-filter="cake">cake</li>
+        </ul>
+
+        <div class="img-container">
+            <div class="image beef">
+                <img src="./images/images/beef1.jpg" alt="">
+                <a href="#">beef</a>
+            </div>
+            <div class="image beef">
+                <img src="./images/images/beef2.jpg" alt="">
+                <a href="#">beef</a>
+            </div>
+            <div class="image beef">
+                <img src="./images/images/beef3.jpg" alt="">
+                <a href="#">beef</a>
+            </div>
+
+            <div class="image sandwich">
+                <img src="./images/images/sandwich1.jpg" alt="">
+                <a href="#">sandwich</a>
+            </div>
+            <div class="image sandwich">
+                <img src="./images/images/sandwich2.jpg" alt="">
+                <a href="#">sandwich</a>
+            </div>
+            <div class="image sandwich">
+                <img src="./images/images/sandwich3.jpg" alt="">
+                <a href="#">sandwich</a>
+            </div>
+
+            <div class="image salad">
+                <img src="./images/images/salad1.jpg" alt="">
+                <a href="#">salad</a>
+            </div>
+            <div class="image salad">
+                <img src="./images/images/salad2.jpg" alt="">
+                <a href="#">salad</a>
+            </div>
+            <div class="image salad">
+                <img src="./images/images/salad3.jpg" alt="">
+                <a href="#">salad</a>
+            </div>
+
+            <div class="image cake">
+                <img src="./images/images/cake1.jpg" alt="">
+                <a href="#">cake</a>
+            </div>
+            <div class="image cake">
+                <img src="./images/images/cake2.jpg" alt="">
+                <a href="#">cake</a>
+            </div>
+            <div class="image cake">
+                <img src="./images/images/cake3.jpg" alt="">
+                <a href="#">cake</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- dish section ends  -->
+
+    <!-- chef section starts -->
+
+    <section id="chef" class="chef">
+      <h1 class="heading"><span>expert chefs</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="./images/images/mike bozo.webp" alt="">
+          <div class="info">
+            <h3>michelle dean</h3>
+            <span>head chef</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-pinterest"></a>
+              <a href="#" class="fab fa-twitter"></a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="box">
+          <img src="./images/images/gordon ramsay.jpg" alt="">
+          <div class="info">
+            <h3>gordon ramsay</h3>
+            <span>head chef</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-pinterest"></a>
+              <a href="#" class="fab fa-twitter"></a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="box">
+          <img src="./images/images/chef3.jpg" alt="">
+          <div class="info">
+            <h3>john doe</h3>
+            <span>head chef</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-pinterest"></a>
+              <a href="#" class="fab fa-twitter"></a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="box">
+          <img src="./images/images/alina.jpg" alt="">
+          <div class="info">
+            <h3>alina joe</h3>
+            <span>support chef</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-pinterest"></a>
+              <a href="#" class="fab fa-twitter"></a>
+            </div>
+          </div>
+ 
+      </div>
+
+    </section>
+
+    <!-- chef section ends  -->
+
+    <!-- speciality section starts  -->
+
+    <section id="speciality" class="speciality">
+      <h1 class="heading"><span>our specialities</span></h1>
+
+      <div class="box-container">
+          <div class="box">
+            <img src="./images/images/img1.jpg" alt="">
+            <div class="info">
+              <h3>tasty humburger</h3>
+              <p>up to 25% discount</p>
+              <a href="#"> <button class="btn">check out</button> </a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./images/images/img2.jpg" alt="">
+            <div class="info">
+              <h3>fresh breakfast</h3>
+              <p>up to 25% discount</p>
+              <a href="#"> <button class="btn">check out</button> </a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./images/images/img3.jpg" alt="">
+            <div class="info">
+              <h3>veg sandwich</h3>
+              <p>up to 25% discount</p>
+              <a href="#"> <button class="btn">check out</button> </a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./images/images/img4.jpg" alt="">
+            <div class="info">
+              <h3>delicious pizza</h3>
+              <p>up to 25% discount</p>
+              <a href="#"> <button class="btn">check out</button> </a>
+            </div>
+          </div>
+        
+      </div>
+
+      <div class="icon-container">
+        <div class="icon">
+          <i class="fas fa-shipping-fast"></i>
+          <h3>fast delivery</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, soluta!</p>
+        </div>
+
+        <div class="icon">
+          <i class="fas fa-tags"></i>
+          <h3>heavy discounts</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, soluta!</p>
+        </div>
+
+        <div class="icon">
+          <i class="fas fa-hand-holding-usd"></i>
+          <h3>money returns</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, soluta!</p>
+        </div>
+
+        <div class="icon">
+          <i class="fas fa-headset"></i>
+          <h3>24 x 7 support</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, soluta!</p>
+        </div>
+      </div>
+    </section> 
+
+    <!-- speciality section ends  -->
+
+    <!-- newsletter section starts -->
+
+    <section id="letter" class="letter">
+      <h1>newsletter</h1>
+      <p>subscribe for latest update</p>
+      <form action="">
+        <input type="email" placeholder="enter your email">
+        <input type="submit" value="subscribe">
+      </form>
+    </section>
+
+    <!-- newsletter section ends  -->
+
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+      <img src="./images/images/shape-top.png" alt="">
+      
+      <div class="box-container">
+        <div class="box">
+          <h3 class="heading"> <span>why choose us?</span> </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident id libero architecto officiis necessitatibus exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, reprehenderit.</p>
+        </div>
+
+        <div class="box">
+          <h3 class="heading"> <span>locations</span> </h3>
+          <a href="#">india</a>
+          <a href="#">usa</a>
+          <a href="#">france</a>
+          <a href="#">russia</a>
+
+        </div>
+
+        <div class="box">
+          <h3 class="heading"> <span>quick links</span> </h3>
+          <a href="#">home</a>
+          <a href="#">about</a>
+          <a href="#">dishes</a>
+          <a href="#">chefs</a>
+          <a href="#">speciality</a>
+          <a href="#">contact</a>
+
+        </div>
+
+        <div class="box">
+          <h3 class="heading"> <span>contact us</span> </h3>
+          <p> <i class="fas fa-map-marker-alt"></i> mumbai, india 400104</p>
+          <p> <i class="fas fa-envelope"></i> topdishes@restaurant.to </p>
+          <p> <i class="fas fa-globe"></i> www.topdishes.com </p>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section ends  -->
+
+
+
+
+    <!-- jquery cdn link -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- custom js file link -->
+    <script src="./javascript/script.js"></script>
+  </body>
+</html>
